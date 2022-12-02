@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "site": "tesla-clone-by-urveesh",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+   
+  }
+  
+}
